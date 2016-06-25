@@ -615,8 +615,8 @@ namespace Leblanc.Modes
             }
 
             Champion.PlayerSpells.CastW(Target);
-            Champion.PlayerSpells.W2.Cast(Target);
-            //Champion.PlayerSpells.CastW2(Target);
+            //Champion.PlayerSpells.W2.Cast(Target);
+            Champion.PlayerSpells.CastW2(Target);
         }
 
         private static void ExecuteModeAuto()
